@@ -5,7 +5,7 @@ const queryObjectToString = (obj) => {
       return acc + cur + '=' +  obj[cur] + (index === arr.length - 1? '': '&');
   }, '?');
   return res;
-}
+}aaa
 
 const shoes = {
     size:0,
